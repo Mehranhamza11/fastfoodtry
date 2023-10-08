@@ -93,7 +93,7 @@ function App() {
             {
               products.map((product) => (
                 <div key={product.id} className="col-md-4 col-sm-6">
-                <div className="card">
+                <div className="card card-black">
                   <img src={product.img} className="card-img-top" alt="..."/>
                     <div className="card-body">
                       <h5 className="card-title">{product.title}</h5>
